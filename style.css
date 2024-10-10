@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow-x:hidden;
+}
+header{
+    margin-top:20px;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    box-sizing: border-box;
+}
+.intro{
+    width:100%;
+    height: 100%;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.kotak{
+    background-color: rgb(255, 170, 0);
+    margin:2%;
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+    width:80%;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+    align-items: center;
+    margin-right: 750px;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right:40px;
+    height: auto;
+    overflow: hidden;
+}
+nav{
+    background-color: orange;
+    padding:1%;
+    border-radius: 7px;
+}
+.garis{
+    width:500px;
+    height:5px;
+    background:rgb(255, 102, 0);
+    margin:2px auto;
+}
+.awal{
+    padding-top:5px;
+    background-image: url(https://otakukart.com/wp-content/uploads/2022/11/HD-wallpaper_-Anime-Naruto-Gaara-Naruto-Killer-Bee-Naruto-Kyubi-Naruto-scaled.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 65vw;
+    width: 100%;
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.atas{
+    margin-bottom: 100px;
+    color: rgb(255, 174, 0);
+    text-align: center;
+    font-size:40px ;
+    position: relative;
+    padding: 1%;
+    background: rgba(0, 0, 0, 0.616);
+    border-radius: 1rem;
+}
+.satu{
+    background-image: linear-gradient(black, rgba(199, 175, 150, 0.998), black );
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+}
+.gambarkiri img{
+    margin-left:100px;
+    padding: 2%;
+    background: rgba(128, 128, 128, 0.495);
+    border-radius:5%;
+    width: 450px;
+    margin-top: 100px;
+    position: relative;
+}
+.isitekskanan{
+    padding-left:0px;
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 150px;
+    color: rgb(255, 255, 255);
+}
+.isitekskiri{
+    padding-left:150px;
+    font-size: 22px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+.dua{
+    background-image: linear-gradient(black, rgba(53, 80, 255, 0.998), black );
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+}
+.gambarkanan img{
+    padding: 2%;
+    background: rgba(128, 128, 128, 0.495);
+    border-radius: 5%;
+    width: 450px;
+    margin-top: 100px;
+    position: relative;
+    margin-left:50px;
+}
+.tiga{
+    background-image: linear-gradient(black, rgb(182, 70, 70), black );
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+}
+
+.empat{
+    background-image: linear-gradient(black, rgba(255, 0, 0, 0.998), black );
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+}
+
+.lima{
+    background-image: linear-gradient(black, rgba(186, 195, 252, 0.998), black );
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+}
+
+.enam{
+    background-image: linear-gradient(black, rgba(203, 225, 236, 0.998), black );
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+}
+
+.tujuh{
+    background-image: linear-gradient(black, rgba(153, 255, 0, 0.998), black );
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+}
+
+.delapan{
+    background-image: linear-gradient(black, rgba(125, 97, 67, 0.998), black );
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+}
+
+.sembilan{
+    background-image: linear-gradient(black, rgba(255, 136, 0, 0.998), black );
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+}
+
+.sepuluh{
+    background-image: linear-gradient(black, rgba(148, 127, 109, 0.998), black );
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 9rem;
+}
